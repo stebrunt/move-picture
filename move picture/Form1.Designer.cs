@@ -34,6 +34,7 @@
             this.btndown = new System.Windows.Forms.Button();
             this.btnup = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::move_picture_1.Properties.Resources.liverpool;
-            this.pictureBox1.Location = new System.Drawing.Point(467, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(324, 164);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(484, 258);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -105,11 +106,22 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(191, 86);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(931, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 39);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "rotateright";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 499);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -128,6 +140,7 @@
         private System.Windows.Forms.Button btndown;
         private System.Windows.Forms.Button btnup;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
